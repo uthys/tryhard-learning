@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calc</title>
+<a href="function.js"></a>
+</head>
+<body background = "https://wallpapersite.com/images/wallpapers/nebula-3840x2160-pink-galaxy-stars-4k-13210.jpg"
+<p></p>
+<p></p>
+<center>
+	<font size = "10" color = "#A6DC76">
+		<strong>
+			Mass Calcolator.
+		</strong>
+	</font>
+</center>
+<p></p>
+<center>
+	<font color="#A6DC76" size="5">
+		<strong>Calculate your mass</strong>
+	</font>
+</center>
+<center>
+	<script type="text/javascript">  
+		function getBMI()
+		{  
+			var W=document.getElementById("Weight").value; 
+			var h=document.getElementById("Height").value; 
+			alert(W / (h * h));  
+		}  
+	</script>
+	<div style="width:650px;height:900px;border:2px #fff ;">
+ 		<div style="border:2px solid #555; fill:#fff">
+    		<label for="Weight" style="cursor:text;"><strong><font color="#A6DC76">Weight=</font></strong></label>
+    		<input type="text" id="Weight">
+		</div>
+		<p></p>
+		<div style="border:2px solid #555;">
+    		<label for="Height" style="cursor:text;"><strong><font color="#A6DC76">Height=</font></strong></label>
+    		<input type="text" id="Height">
+		</div>
+		<p></p>
+		<div class="Convert"><button onclick="getBMI()">
+			Convert
+		</button>
+		<p></p>
+		<p></p>
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd1UBR8hex89ccF7hjrv2YDtAQh9oY5eqVRzMx0pEEtljgaY0s">
+</center>
+</body>
+</html>
